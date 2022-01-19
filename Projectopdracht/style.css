@@ -57,6 +57,7 @@ body{
 
 
 /* ---Header--- */
+
 .header{
     float: right;
     position: relative;
@@ -84,6 +85,7 @@ h2{
 }
 
 /* ---Info Section--- */
+
 .info-container{
     display: grid;
     float: right;
@@ -91,7 +93,7 @@ h2{
     top: 0px;
     background-color: rgb(170, 170, 170);
     width: 78.9vw;
-    height: 200vh;
+    height: 216vh;
     padding: 10px;
 }
 .info-box{
@@ -111,4 +113,11 @@ h2{
     display: inline-block;
     margin-left: 10px;
     transform: translateY(-20px);
+}
+
+/* ---Footer--- */
+
+.footer{
+    width: 100vw;
+    margin-top: 50px;
 }
