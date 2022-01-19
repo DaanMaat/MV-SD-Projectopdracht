@@ -1,5 +1,28 @@
 /* ---Algemeen--- */
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 
 /* ---Body--- /*
+
+
+
+/* ---Header--- */
+.header{
+    background-color: rgb(170, 170, 170);
+    width: 87%;
+    height: 65vh;
+    padding: 50px
+}
+
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: right;
+
+}
