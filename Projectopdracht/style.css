@@ -58,7 +58,7 @@ body{
 
 /* ---Header--- */
 .header{
-    float: left;
+    float: right;
     position: relative;
     top: 0px;
     background-color: rgb(170, 170, 170);
@@ -73,51 +73,42 @@ body{
     float: right;
     margin-right: 80px;
 }
-h1{
+.Nametext{
     font-size: 65px;
-    margin: 70px;
+    margin-top: 20px;
     text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
 }
 
 /* ---Info Section--- */
 .info-container{
     display: grid;
-    float: left;
+    float: right;
     position: relative;
     top: 0px;
     background-color: rgb(170, 170, 170);
     width: 78.9vw;
-    height: 115vh;
+    height: 200vh;
     padding: 10px;
 }
 .info-box{
     background-color: white;
     margin: 10px;
     height: 40vh;
-}
-.box1{
     grid-column-start:1 ;
-    grid-column-end:2 ;
-}
-.box2{
-    grid-column-start:2 ;
-    grid-column-end:3 ;
-}
-.box3{
-    grid-column-start:3 ;
     grid-column-end:4 ;
-}
-.box4{
-    grid-column-start:1 ;
-    grid-column-end: 4;
-    height: 70vh;
 }
 .Icon{
     width: 80px;
     height: 80px;
     border-radius: 50%;
 }
-.Icon-1{
-    width: 70px;
-    height: 70px;
+.Headline{
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 10px;
+    transform: translateY(-20px);
 }
