@@ -14,9 +14,10 @@
 /* ---Header--- */
 .header{
     background-color: rgb(170, 170, 170);
-    width: 87%;
+    width: 85%;
     height: 65vh;
-    padding: 50px
+    padding: 10px;
+    float: right;
 }
 .profile{
     border-radius: 50%;
@@ -26,14 +27,13 @@
 }
 .info-container{
     display: grid;
-    width: 80%;
+    width: 100%;
+    padding-top: 30px;
 }
 .info-box{
     background-color: white;
-    width: 15%;;
+    height: 450%;
     margin: 10px;
-    grid-row-start: 1;
-    grid-row-end: 2;
 }
 .box1{
     grid-column-start:1 ;
@@ -46,4 +46,9 @@
 .box3{
     grid-column-start:3 ;
     grid-column-end:4 ;
+}
+h1{
+    font-size: 65px;
+    margin: 70px;
+    text-align: center;
 }
