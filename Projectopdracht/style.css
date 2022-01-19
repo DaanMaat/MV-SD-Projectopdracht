@@ -7,17 +7,61 @@
 }
 /* ---Body--- */
 
-
-
+/* ---Navigation--- */
+#left-screen{ 
+    position: relative;
+    float: left;
+    top: 0px;
+    width: 20vw; 
+    height: 100vh; 
+    background-color:rgba(140,183,127,255); 
+    display: grid; 
+    align-items: center; 
+    justify-content: center; 
+    user-select: none; 
+  } 
+   
+  #navigatie-container{  
+    margin: 0em; 
+    border: solid 1px black; 
+    width: 15vw; 
+    height: 80vh; 
+    display: grid; 
+    grid-template-rows: repeat(6, 1fr); 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 40px; 
+    background-color: white; 
+  } 
+   
+  .navigatie{ 
+    vertical-align: middle; 
+    font-size: 1.3em; 
+    padding-left: 0.5vw; 
+    height: 5vh; 
+    width: 11vw; 
+    color:rgba(140,183,127,255); 
+    font-family: 'Courier New', Courier, monospace; 
+    line-height: 5vh; 
+  } 
+   
+   
+  .navigatie:hover{ 
+    background-color:rgba(140,183,127,255); 
+    border-radius: 80px; 
+    color: black ; 
+  } 
 
 
 /* ---Header--- */
 .header{
+    float: left;
+    position: relative;
+    top: 0px;
     background-color: rgb(170, 170, 170);
-    width: 85%;
-    height: 65vh;
+    width: 78.9vw;
+    height: 85vh;
     padding: 10px;
-    float: right;
 }
 .profile{
     border-radius: 50%;
