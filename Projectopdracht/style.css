@@ -1,5 +1,54 @@
 /* ---Algemeen--- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* ---Body--- */
 
 
 
-/* ---Body--- /*
+
+
+/* ---Header--- */
+.header{
+    background-color: rgb(170, 170, 170);
+    width: 85%;
+    height: 65vh;
+    padding: 10px;
+    float: right;
+}
+.profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+.info-container{
+    display: grid;
+    width: 100%;
+    padding-top: 30px;
+}
+.info-box{
+    background-color: white;
+    height: 450%;
+    margin: 10px;
+}
+.box1{
+    grid-column-start:1 ;
+    grid-column-end:2 ;
+}
+.box2{
+    grid-column-start:2 ;
+    grid-column-end:3 ;
+}
+.box3{
+    grid-column-start:3 ;
+    grid-column-end:4 ;
+}
+h1{
+    font-size: 65px;
+    margin: 70px;
+    text-align: center;
+}
