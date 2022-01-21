@@ -1,4 +1,7 @@
+@import url(Responsive.css);
+
 /* ---Algemeen--- */
+
 *{
     margin: 0;
     padding: 0;
@@ -39,7 +42,7 @@ body{
    
   .navigatie{ 
     vertical-align: middle; 
-    font-size: 1em; 
+    font-size: 1.5em; 
     padding-left: 0.5vw; 
     height: 5vh; 
     width: 11vw; 
@@ -54,6 +57,13 @@ body{
     border-radius: 80px; 
     color: black ; 
   } 
+  .menu{
+      width: 80px;
+      height: 80px;
+      visibility: hidden;
+      border-radius: 50%;
+      align-self: center;
+  }
 
 
 /* ---Header--- */
@@ -112,7 +122,6 @@ h2{
     font-size: 50px;
     display: inline-block;
     margin-left: 10px;
-    transform: translateY(-20px);
     color: rgb(140,183,127);
 }
 
@@ -126,5 +135,4 @@ h2{
     font-size: 50px;
     display: inline-block;
     margin-left: 10px;
-    transform: translateY(-20px);
 }

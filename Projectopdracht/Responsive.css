@@ -1,16 +1,54 @@
 /* ---Telefoon--- */
-@media screen and (max-width: 719px){
-    
+@media screen and (max-width: 720px){
+  .menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    display: show;
+  }
+#left-screen{
+  width: 15vw;
+  align-items: center; 
+  justify-content: center;
+  float: left;
+}
+#navigatie-container{
+  visibility: hidden;
+}
+.navigatie{
+  visibility: hidden;
+}
+#header{
+  width: 85vw;
+}
+#info-container{
+  width: 85vw;
+}
+.info-box{
+  width: 70vw;
+}
+#profile{
+  width: 125px;
+  height: 125px;
+  align-self: center;
+}
+#profile-picture{
+  align-content: center;
+  justify-content: center;
+}
+.Headline{
+  font-size: 30px;
+}
 }
 
 /* ---Tabblad--- */
 /* -vertical mode- */
-@media screen and (max-width: 919px){
-    
+@media screen and (max-width: 920px){
+
 }
 
 /* -Landscape mode- */
-@media screen and (max-width: 1023px){
+@media screen and (max-width: 1280px){
     
 }
 
@@ -18,6 +56,6 @@
 
 
 /* ---Desktop--- */
-@media screen and (max-width: 1920px){
-    
+@media screen and(max-width: 1920px) {
+
 }
