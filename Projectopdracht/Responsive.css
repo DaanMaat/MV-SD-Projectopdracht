@@ -1,10 +1,10 @@
 /* ---Telefoon--- */
 @media screen and (max-width: 720px){
-  .menu{
+  #menu{
     width: 70px;
     height: 70px;
     align-self: center;
-    display: show;
+    visibility: show;
   }
 #left-screen{
   width: 15vw;
@@ -20,6 +20,7 @@
 }
 #header{
   width: 85vw;
+  height: 17vh;
 }
 #info-container{
   width: 85vw;
@@ -39,23 +40,43 @@
 .Headline{
   font-size: 30px;
 }
+#menu:hover{ 
+  border-radius: 80px; 
+  color: black ; 
+  transition:rgb(255,255,255);
+  transition-duration: 1s;
 }
-
+}
 /* ---Tabblad--- */
 /* -vertical mode- */
 @media screen and (max-width: 920px){
-
+  #menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    visibility: hidden;
+}
 }
 
 /* -Landscape mode- */
 @media screen and (max-width: 1280px){
-    
+  #menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    visibility: hidden;
+}
 }
 
 
 
 
 /* ---Desktop--- */
-@media screen and(max-width: 1920px) {
-
+@media screen and(max-width: 1920px){
+  #menu{
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    visibility: hidden;
+}
 }
