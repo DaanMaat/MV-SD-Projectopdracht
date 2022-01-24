@@ -1,16 +1,23 @@
 /* ---Telefoon--- */
 @media screen and (max-width: 720px){
-  #menu{
-    width: 70px;
-    height: 70px;
-    align-self: center;
-    visibility: show;
-  }
+
 #left-screen{
   width: 15vw;
   align-items: center; 
   justify-content: center;
   float: left;
+}
+#menu{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  transition: duration 1s;
+  justify-self: center;
+}
+#menu:active{
+  background-color: gray;
+  
 }
 #navigatie-container{
   visibility: hidden;
@@ -38,45 +45,21 @@
   justify-content: center;
 }
 .Headline{
-  font-size: 30px;
-}
-#menu:hover{ 
-  border-radius: 80px; 
-  color: black ; 
-  transition:rgb(255,255,255);
-  transition-duration: 1s;
+  font-size: 20px;
 }
 }
 /* ---Tabblad--- */
 /* -vertical mode- */
 @media screen and (max-width: 920px){
-  #menu{
-    width: 70px;
-    height: 70px;
-    align-self: center;
-    visibility: hidden;
-}
+
 }
 
 /* -Landscape mode- */
 @media screen and (max-width: 1280px){
-  #menu{
-    width: 70px;
-    height: 70px;
-    align-self: center;
-    visibility: hidden;
+
 }
-}
-
-
-
 
 /* ---Desktop--- */
 @media screen and(max-width: 1920px){
-  #menu{
-    width: 10px;
-    height: 10px;
-    align-self: center;
-    visibility: hidden;
-}
+
 }
