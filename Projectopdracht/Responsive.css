@@ -1,23 +1,82 @@
 /* ---Telefoon--- */
-@media screen and (max-width: 719px){
-    
+@media screen and (max-width: 720px){
+  #menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    visibility: show;
+  }
+#left-screen{
+  width: 15vw;
+  align-items: center; 
+  justify-content: center;
+  float: left;
 }
-
+#navigatie-container{
+  visibility: hidden;
+}
+.navigatie{
+  visibility: hidden;
+}
+#header{
+  width: 85vw;
+  height: 17vh;
+}
+#info-container{
+  width: 85vw;
+}
+.info-box{
+  width: 70vw;
+}
+#profile{
+  width: 125px;
+  height: 125px;
+  align-self: center;
+}
+#profile-picture{
+  align-content: center;
+  justify-content: center;
+}
+.Headline{
+  font-size: 30px;
+}
+#menu:hover{ 
+  border-radius: 80px; 
+  color: black ; 
+  transition:rgb(255,255,255);
+  transition-duration: 1s;
+}
+}
 /* ---Tabblad--- */
 /* -vertical mode- */
-@media screen and (max-width: 919px){
-    
+@media screen and (max-width: 920px){
+  #menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    visibility: hidden;
+}
 }
 
 /* -Landscape mode- */
-@media screen and (max-width: 1023px){
-    
+@media screen and (max-width: 1280px){
+  #menu{
+    width: 70px;
+    height: 70px;
+    align-self: center;
+    visibility: hidden;
+}
 }
 
 
 
 
 /* ---Desktop--- */
-@media screen and (max-width: 1920px){
-    
+@media screen and(max-width: 1920px){
+  #menu{
+    width: 10px;
+    height: 10px;
+    align-self: center;
+    visibility: hidden;
+}
 }

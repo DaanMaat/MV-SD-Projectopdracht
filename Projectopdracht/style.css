@@ -1,4 +1,5 @@
 /* ---Algemeen--- */
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,7 @@ body{
 
 /* ---Navigation--- */
 #left-screen{ 
-    position: relative;
+    position: fixed;
     float: left;
     top: 0px;
     width: 20vw; 
@@ -39,7 +40,7 @@ body{
    
   .navigatie{ 
     vertical-align: middle; 
-    font-size: 1em; 
+    font-size: 1.5em; 
     padding-left: 0.5vw; 
     height: 5vh; 
     width: 11vw; 
@@ -54,10 +55,16 @@ body{
     border-radius: 80px; 
     color: black ; 
   } 
+  #menu{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+  }
 
 
 /* ---Header--- */
-.header{
+
+#header{
     float: right;
     position: relative;
     top: 0px;
@@ -66,14 +73,14 @@ body{
     height: 30vh;
     padding: 10px;
 }
-.profile{
+#profile{
     border-radius: 50%;
     width: 200px;
     height: 200px;
     float: right;
     margin-right: 80px;
 }
-.Nametext{
+#Nametext{
     font-size: 65px;
     margin-top: 20px;
     text-align: center;
@@ -84,14 +91,15 @@ h2{
 }
 
 /* ---Info Section--- */
-.info-container{
+
+#info-container{
     display: grid;
     float: right;
     position: relative;
     top: 0px;
     background-color: rgb(170, 170, 170);
     width: 78.9vw;
-    height: 200vh;
+    height: 216vh;
     padding: 10px;
 }
 .info-box{
@@ -110,5 +118,17 @@ h2{
     font-size: 50px;
     display: inline-block;
     margin-left: 10px;
-    transform: translateY(-20px);
+    color: rgb(140,183,127);
+}
+
+/* ---Footer--- */
+
+#footer{
+    width: 100vw;
+    margin-top: 50px;
+}
+#footer-text{
+    font-size: 50px;
+    display: inline-block;
+    margin-left: 10px;
 }
