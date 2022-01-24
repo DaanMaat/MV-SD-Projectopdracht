@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#skill-container{
+  
+  border: solid 1px;
+  height: 400px;
+  width: 78.9vw;
+  font-size: 30px;
+  float: right;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.Head-container{
+  grid-column: span 2;
+}
+
+.skillName{
+  line-height: 10vh;
+  font-size: 3vw;
+}
+
+.skillBar{
+  transform: translateX(-20vw);
+  border: solid 1px black;
+  margin-top: 4vh;
+  width: 20vw;
+  height: 3vh;
+  border-radius: 5vh;
+}
+
+.skillDone{
+  background-color: green;
+  border-radius: 5vh 0vh 0vh 5vh;
+  height: 3vh;
+  transform: translateX(-0.06vw);
+}
+
+.skillDone-1{
+  width: 20vw;
+  /* border-radius: 5vw; */
+}
