@@ -1,6 +1,5 @@
 /* ---Telefoon--- */
 @media screen and (max-width: 720px){
-
 #left-screen{
   width: 15vw;
   align-items: center; 
@@ -14,6 +13,7 @@
   background-color: white;
   transition: duration 1s;
   justify-self: center;
+  visibility: show;
 }
 #menu:active{
   background-color: gray;
@@ -51,15 +51,21 @@
 /* ---Tabblad--- */
 /* -vertical mode- */
 @media screen and (max-width: 920px){
-
+  #menu{
+    visibility: show;
+  }
 }
 
 /* -Landscape mode- */
 @media screen and (max-width: 1280px){
-
+  #menu{
+    visibility: hidden;
+  }
 }
 
 /* ---Desktop--- */
 @media screen and(max-width: 1920px){
-
+  #menu{
+    visibility: hidden;
+  }
 }
