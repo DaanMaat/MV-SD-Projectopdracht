@@ -1,0 +1,78 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.button{
+  position: absolute;
+  background-color: green;
+  width: 4vw;
+  height: 7vh;
+}
+
+.buttonBar{
+   background-color: white;
+  position: absolute;
+  width: 3vw;
+  height: 1vh;
+  border-radius: 5vw;
+}
+
+.buttonBar-1{
+  top: 1vh;
+  left: 0.5vw;
+}
+
+.buttonBar-2{
+  top: 3vh;
+  left: 0.5vw;
+}
+
+.buttonBar-3{
+  top: 5vh;
+  left: 0.5vw;
+}
+
+#left-screen{
+  width: 20vw;
+  height: 100vh;
+  background-color:rgba(140,183,127,255);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+}
+
+#navigatie-containerButton{ 
+  position: absolute;
+  margin-top: 10vh;
+  margin-left: -30vh;
+  border: solid 1px black;
+  width: 15vw;
+  height: 80vh;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  background-color: white;
+  transition: all 1s;
+}
+
+.navigatieButton{
+  vertical-align: middle;
+  font-size: 1.3em;
+  padding-left: 0.5vw;
+  height: 5vh;
+  width: 11vw;
+  color:rgba(140,183,127,255);
+  font-family: bold, Courier, monospace;
+  line-height: 5vh;
+}
+
+
+.navigatie:hover{
+  background-color:rgba(140,183,127,255);
+  border-radius: 80px;
+  color: black ;
+}
