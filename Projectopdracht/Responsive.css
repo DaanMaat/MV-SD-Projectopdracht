@@ -1,23 +1,14 @@
 /* ---Telefoon--- */
-@media screen and (max-width: 720px){
+@media screen and (max-width: 720px) and (min-width: 0px){
+
+.button{
+  transform: translateX(0px);
+}
 #left-screen{
   width: 15vw;
   align-items: center; 
   justify-content: center;
   float: left;
-}
-#menu{
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: white;
-  transition: duration 1s;
-  justify-self: center;
-  visibility: show;
-}
-#menu:active{
-  background-color: gray;
-  
 }
 #navigatie-container{
   visibility: hidden;
@@ -50,22 +41,34 @@
 }
 /* ---Tabblad--- */
 /* -vertical mode- */
-@media screen and (max-width: 920px){
-  #menu{
-    visibility: show;
+@media screen and (max-width: 920px) and (min-width: 721px){
+  .button{
+    transform: translateX(0px);
+  }
+  #navigatie-container{
+    visibility: hidden;
+  }
+  .navigatie{
+    visibility: hidden;
   }
 }
 
 /* -Landscape mode- */
-@media screen and (max-width: 1280px){
-  #menu{
-    visibility: hidden;
+@media screen and (max-width: 1280px) and (min-width: 921px){
+  .button{
+    transform: translateX(-200px);
+    }
+    #navigatie-containerButton{
+      transform: translateX(-200px);
+    }
   }
-}
 
 /* ---Desktop--- */
-@media screen and(max-width: 1920px){
-  #menu{
-    visibility: hidden;
-  }
+@media screen and (min-width: 1281px){
+  .button{
+    transform: translateX(-200px);
+    }
+    #navigatie-containerButton{
+      transform: translateX(-200px);
+    }
 }
