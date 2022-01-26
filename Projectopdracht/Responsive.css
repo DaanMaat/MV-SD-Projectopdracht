@@ -1,42 +1,13 @@
 /* ---Telefoon--- */
 @media screen and (max-width: 720px) and (min-width: 0px){
-
 .button{
   transform: translateX(0px);
-}
-#left-screen{
-  width: 15vw;
-  align-items: center; 
-  justify-content: center;
-  float: left;
 }
 #navigatie-container{
   visibility: hidden;
 }
 .navigatie{
   visibility: hidden;
-}
-#header{
-  width: 85vw;
-  height: 17vh;
-}
-#info-container{
-  width: 85vw;
-}
-.info-box{
-  width: 70vw;
-}
-#profile{
-  width: 125px;
-  height: 125px;
-  align-self: center;
-}
-#profile-picture{
-  align-content: center;
-  justify-content: center;
-}
-.Headline{
-  font-size: 20px;
 }
 }
 /* ---Tabblad--- */
