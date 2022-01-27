@@ -34,9 +34,8 @@
 /* -Landscape mode- */
 @media screen and (max-width: 1280px) and (min-width: 921px){
   
-  #navigatie-containerButton{
-    transform: translateX(-200px);
-  }
+
+  
   
 
 }
@@ -46,7 +45,5 @@
   .button{
     transform: translateX(-200px);
   }
-  #navigatie-containerButton{
-    transform: translateX(-200px);
-  }
+  
 }
