@@ -54,7 +54,47 @@ document.addEventListener("mouseover", function(event){
     if(event.target.id != "contact" && event.target.id != "contactLink"){
         document.getElementById("contactLink").style.color = "rgb(140,183,127)"
     }
+    if(event.target.id == "abou2t" || "aboutLink2"){
+        document.getElementById("aboutLink2").style.color = "black"
+    }
+    if(event.target.id != "about2" && event.target.id != "aboutLink2"){
+        document.getElementById("aboutLink2").style.color = "rgb(140,183,127)"
+    }
 
+    if(event.target.id == "opleidingen2" || "opledingenLink2"){
+        document.getElementById("opleidingenLink2").style.color = "black"
+    }
+    if(event.target.id != "opleidingen2" && event.target.id != "opleidingenLink2"){
+        document.getElementById("opleidingenLink2").style.color = "rgb(140,183,127)"
+    }
+
+    if(event.target.id == "projecten2"  || "projectenLink2"){
+        document.getElementById("projectenLink2").style.color = "black"
+    }
+    if(event.target.id != "projecten2" && event.target.id != "projectenLink2"){
+        document.getElementById("projectenLink2").style.color = "rgb(140,183,127)"
+    }
+
+    if(event.target.id == "skills2" || "skillsLink2"){
+        document.getElementById("skillsLink2").style.color = "black"
+    }
+    if(event.target.id != "skills2" && event.target.id != "skillsLink2"){
+        document.getElementById("skillsLink2").style.color = "rgb(140,183,127)"
+    }
+
+    if(event.target.id == "werkervaring2" || "werkervaringLink2"){
+        document.getElementById("werkervaringLink2").style.color = "black"
+    }
+    if(event.target.id != "werkervaring2" && event.target.id != "werkervaringLink2"){
+        document.getElementById("werkervaringLink2").style.color = "rgb(140,183,127)"
+    }
+
+    if(event.target.id == "contact2" || "contactLink2"){
+        document.getElementById("contactLink2").style.color = "black"
+    }
+    if(event.target.id != "contact2" && event.target.id != "contactLink2"){
+        document.getElementById("contactLink2").style.color = "rgb(140,183,127)"
+    }
 
 
 })

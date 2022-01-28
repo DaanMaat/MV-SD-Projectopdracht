@@ -137,7 +137,7 @@ body{
     position: relative;
     top: 0px;
     background-color: rgb(170, 170, 170);
-    width: 78.9vw;
+    width: 80.9vw;
     height: 30vh;
     padding: 10px;
 }
@@ -167,7 +167,7 @@ h2{
     top: 0px;
     background-color: rgb(170, 170, 170);
     width: 81vw;
-    height: 216vh;
+    height: 298vh;
     padding: 10px;
 }
 .info-box{
@@ -218,7 +218,7 @@ h2{
 
 .skillDone{
   background-color: green;
-  border-radius: 5vh 0vh 0vh 5vh;
+  border-radius: 5vh 5vh 5vh 5vh;
   height: 3vh;
   transform: translateX(-0.06vw);
 }
@@ -230,7 +230,7 @@ h2{
 
 /* ---Footer--- */
 #headline6{
-    height: 80vh;
+    height: 57vh;
 }
 #contact-container{
     height: 400px;
